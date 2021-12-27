@@ -1,1 +1,1 @@
-# JS_practice
+# JS Study
