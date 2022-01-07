@@ -47,4 +47,4 @@ const slide1 = new Slide(document.getElementById('a'), [1,2,3,4,5])
 const slide2 = new Slide(document.getElementById('b'), ['a', 'b', 'c', 'd', 'e'])
 const slide3 = new Slide(document.getElementById('c'), ['A', 'B', 'C', 'D', 'E'])
 
-console.log(slide1)
+// slide1.triggerClick()
