@@ -61,3 +61,30 @@ if(true) {
 }
 
 // const c = new A() -> ReferenceError 
+
+
+const b = [1, 3, 4]
+
+console.log(b)
+
+// 상속
+
+class Square {
+    constructor (width) {
+        this.width = width
+    }
+    getArea () {
+        return this.width * (this.height || this.width)
+    }
+}
+
+class Rectangle extends Square {
+    constructor (width, height) {
+        super(width) // 상위 class 의 constructor 호출 오직 constructor 안에서만 호출가능
+        
+        this.height = height
+    }
+}
+
+
+
